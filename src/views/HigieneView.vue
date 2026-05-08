@@ -3,7 +3,7 @@ import {ref} from 'vue'
 import { listaProdutos } from '@/data/produtos';
 import { formataPreco } from '@/utils/produtoUtils';
 const produtos = ref(listaProdutos)
-produtos.value = produtos.value.filter(p => p.categoria === 'Alimentos')
+produtos.value = produtos.value.filter(p => p.categoria === 'Higiene')
 </script>
 
 <template>
